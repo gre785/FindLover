@@ -137,8 +137,8 @@ $(function () {
                 swal(data[1], data[0], data[1]);
             },
             error: function (a, b1, c1) {
-                swal(a[1], a[0], a[1]);
-            }
+                             swal(a[1], a[0], a[1]);
+                         }
         })
     });
     $("#starSubmit").click(function () {

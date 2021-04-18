@@ -11,11 +11,11 @@
 
   <!--联合id查询指定用户指定标签-->
   <select id="selectLabelByUserIdAndLabelId" parameterType="integer" resultType="userLabel">
-    SELECT * FROM user_label WHERE user_id=#{arg0} AND label_id =#{arg1}
+    SELECT * FROM user_label WHERE user_id=#{param1} AND label_id =#{param2}
   </select>
 
   <!--联合id查询指定用户指定标签-->
   <delete id="deleteLabelByUserIdAndLabelId" parameterType="integer">
-    DELETE FROM user_label WHERE user_id=#{arg0} AND label_id =#{arg1}
+    DELETE FROM user_label WHERE user_id=#{param1} AND label_id =#{param2}
   </delete>
 </mapper>

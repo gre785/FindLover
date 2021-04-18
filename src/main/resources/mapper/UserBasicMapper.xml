@@ -45,7 +45,7 @@
     </resultMap>
 
     <sql id="Base_Column_List">
-       id, email, password, nickname, tel, sex, birthday, photo, marry_status, height, sexual,
+      id, email, password, nickname, tel, sex, birthday, photo, marry_status, height, sexual,
         education, workplace, salary, live_condition, authority, status, code, reg_time
     </sql>
 
